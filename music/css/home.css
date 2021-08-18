@@ -1,0 +1,526 @@
+.navTop{
+    display: flex;
+    justify-content: space-between;
+    top: 0%;
+}
+
+.budgeTop{
+    height: 20px;
+    width: 22px;
+    margin-top: 10px;
+    margin-left: -13px;
+    background-color: white;
+    border-radius: 40px;
+    text-align: center;
+    color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.lnkBadge{
+    display: flex;
+    text-decoration: none;
+}
+
+.right{
+
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+
+}
+
+.name{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.name:hover{
+    color: white;
+}
+
+.navPic{
+    height: 20px;
+    width: 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.linkProf{
+    color: white;
+    margin-top: 8px;
+}
+
+.linkProf:hover{
+    color: white;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleFeatured{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.sectionItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnMore{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.lnkProds{
+    
+}
+
+.btnMore:hover{
+    background-color: white;
+    color: brown;
+}
+.moreBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.ulOuter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px;
+    flex-wrap: wrap;
+
+}
+
+.liInner{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.liInner:hover{
+    box-shadow: 0px 2px 5px 5px rgba(235,231,231,0.91);
+    -webkit-box-shadow: 0px 2px 5px 5px rgba(235,231,231,0.91);
+    -moz-box-shadow: 0px 2px 5px 5px rgba(235,231,231,0.91);
+    border-radius: 10px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgContent{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.detContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin: 10px
+
+}
+
+.nameProd{
+    color: white;
+    font-weight: bolder;
+
+}
+
+.priceProd{
+    color: black;
+    font-weight: bold;
+
+}
+
+.bottomNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botTitle{
+    color: white;
+    text-align: center;
+}
+
+/* cart */
+
+.noData{
+    text-align: center;
+}
+
+.cartTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.titleCart{
+    color: white;
+    text-align: center;
+}
+
+.cartContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.ulCartOuter{
+    
+    
+
+}
+
+.liCartInner{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+
+}
+
+.divCart{
+    display: flex;
+    text-align: center;
+    
+
+}
+
+.imgCart{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.nameCart{
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
+
+}
+
+.priceCart{
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 60px;
+
+}
+
+.itemTot{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 10px;
+    margin-left: 60px;
+
+
+}
+
+.sub{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: brown;
+     border: none;
+     margin-right: 20px;
+     font-weight: bold;
+}
+
+.add{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+     border: none;
+     color: brown;
+     margin-right: 10px;
+     font-weight: bold;
+
+}
+
+.tot{
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+.rem{
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.totCont{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.TotalContainer{
+    display: flex;
+
+}
+
+.titleTotal{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.totalAmount{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.orderContainer{
+    display: flex;
+}
+
+.remAll{
+    height: 50px;
+    width: 150px;
+    margin-right: 5px;
+    
+}
+
+.remOne{
+    height: 40px;
+    width: 100px;
+    margin-left: 60px;
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.frmDel{
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+}
+
+.ordr{
+    height: 50px;
+    width: 150px;
+
+}
+
+.detContainerModal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin: 10px
+
+}
+
+.nameProdModal{
+color: brown;
+font-weight: bolder;
+font-size: 20px;
+
+}
+
+.priceProdModal{
+color: black;
+font-weight: bold;
+
+}
+
+.btnDetailsView{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnDetailsView:hover{
+    background-color: white;
+    color: brown;
+}
+
+/* details */
+.viewProdSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.detDivInner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.detImage{
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.detContentDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detPrice{
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.detQuantity{
+    color: white;
+    font-weight: bold;
+}
+
+.detItemTot{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.detSub{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: brown;
+    border: none;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+
+.detAdd{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    color: brown;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+.detTot{
+
+}
+
+.detItemOrder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.detCart{
+    width: 150px;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.detOrder{
+    width: 150px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.alertCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sucMess{
+    width: 800px;
+    text-align: center;
+}
+
+/* orders */
+
+.ordersTable{
+margin-left: 150px;
+margin-right: 150px;
+margin-top: 30px;
+
+}
+
+.tableOrders{
+
+}

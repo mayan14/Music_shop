@@ -1,0 +1,82 @@
+.container{
+    width: 100%;
+}
+
+.contHeading{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.headingName{
+    color: white;
+
+}
+
+.innerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.textLogCont{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: red;
+    
+}
+
+.logTitle{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: center;
+    color: brown;
+    font-weight: bolder;
+}
+
+.text{
+font-size: 50px;
+font-weight: bolder;
+text-align: center;
+color: rgb(7, 7, 7);
+
+}
+
+.form_input{
+    width: 300px;
+    border: none;
+    box-shadow: 0px 4px 5px 4px rgba(235,235,235,0.75);
+    -webkit-box-shadow: 0px 4px 5px 4px rgba(235,235,235,0.75);
+    -moz-box-shadow: 0px 4px 5px 4px rgba(235,235,235,0.75);
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn_submit{
+    width: 100%;
+    background-color: rgb(82, 93, 250);
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.btn_submit:hover{
+
+}
